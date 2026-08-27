@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Anshika Sports - Tekanpur's premier sports equipment store offering top brand gear for cricket, football, badminton, gym, and schools.">
+    <meta name="keywords" content="Anshika Sports, Tekanpur sports shop, sports equipment, cricket bat SG, Yonex badminton, gym equipment Tekanpur">
+    <title>Anshika Sports | Premium Sports Equipment & Fitness Gear</title>
+    
+    <!-- Google Fonts (Poppins) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    
+    <!-- Main Stylesheet -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- Page Loader Animation -->
+    <div id="page-loader" class="page-loader">
+        <div class="loader-spinner"></div>
+    </div>
+
+    <!-- Scroll Progress Bar -->
+    <div id="scroll-progress" class="scroll-progress"></div>
+
+    <!-- Header / Sticky Navbar -->
+    <header class="glass-nav sticky-header">
+        <div class="container nav-container">
+            <a href="#" class="logo">
+                <span class="logo-accent">ANSHIKA</span> SPORTS
+            </a>
+            
+            <nav class="desktop-nav">
+                <a href="#hero" class="nav-link">Home</a>
+                <a href="#categories" class="nav-link">Categories</a>
+                <a href="#products" class="nav-link">Products</a>
+                <a href="#why-us" class="nav-link">Why Choose Us</a>
+                <a href="#about" class="nav-link">About Us</a>
+                <a href="#reviews" class="nav-link">Reviews</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </nav>
+
+            <div class="nav-actions">
+                <button id="theme-toggle" class="icon-btn" aria-label="Toggle Dark Mode">
+                    <i data-lucide="moon" id="theme-icon"></i>
+                </button>
+                <a href="https://wa.me/919516499774" target="_blank" class="btn btn-primary nav-btn">
+                    <i data-lucide="message-square"></i> WhatsApp
+                </a>
+                <button id="mobile-menu-toggle" class="icon-btn mobile-only" aria-label="Open Menu">
+                    <i data-lucide="menu"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Mobile Drawer Menu -->
+    <div id="mobile-menu" class="mobile-menu">
+        <div class="mobile-menu-header">
+            <span class="logo"><span class="logo-accent">ANSHIKA</span> SPORTS</span>
+            <button id="mobile-menu-close" class="icon-btn"><i data-lucide="x"></i></button>
+        </div>
+        <div class="mobile-menu-links">
+            <a href="#hero" class="mobile-nav-link">Home</a>
+            <a href="#categories" class="mobile-nav-link">Categories</a>
+            <a href="#products" class="mobile-nav-link">Products</a>
+            <a href="#why-us" class="mobile-nav-link">Why Choose Us</a>
+            <a href="#about" class="mobile-nav-link">About Us</a>
+            <a href="#reviews" class="mobile-nav-link">Reviews</a>
+            <a href="#contact" class="mobile-nav-link">Contact</a>
+        </div>
+    </div>
+
+    <!-- 1. Hero Section -->
+    <section id="hero" class="hero-section">
+        <div class="animated-gradient-bg"></div>
+        
+        <!-- Floating Sports Equipment Elements -->
+        <div class="floating-balls">
+            <span class="float-ball ball-1">🏏</span>
+            <span class="float-ball ball-2">⚽</span>
+            <span class="float-ball ball-3">🏀</span>
+            <span class="float-ball ball-4">🏸</span>
+        </div>
+
+        <div class="container hero-content">
+            <div class="hero-badge">
+                <i data-lucide="zap"></i> Tekanpur's Premier Sports Hub
+            </div>
+            <h1 class="hero-title">
+                YOUR ONE STOP DESTINATION <br>FOR ALL <span class="gradient-text">SPORTS EQUIPMENT</span>
+            </h1>
+            <p class="hero-subtitle">
+                Premium Quality Sports Products at Affordable Prices. Equipping school students, college athletes, cricket academies, and fitness lovers.
+            </p>
+            <div class="hero-buttons">
+                <a href="#products" class="btn btn-accent btn-lg">
+                    Shop Now <i data-lucide="arrow-right"></i>
+                </a>
+                <a href="#contact" class="btn btn-outline btn-lg">
+                    Contact Us <i data-lucide="phone-call"></i>
+                </a>
+            </div>
+
+            <div class="hero-stats">
+                <div class="stat-item">
+                    <h3 class="counter" data-target="100">0</h3><span class="stat-suffix">%</span>
+                    <p>Genuine Gear</p>
+                </div>
+                <div class="stat-item">
+                    <h3 class="counter" data-target="500">0</h3><span class="stat-suffix">+</span>
+                    <p>Products</p>
+                </div>
+                <div class="stat-item">
+                    <h3 class="counter" data-target="25">0</h3><span class="stat-suffix">+</span>
+                    <p>Academies Served</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 2. Categories Section -->
+    <section id="categories" class="section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Explore</span>
+                <h2 class="section-title">Shop By Categories</h2>
+            </div>
+            
+            <div class="grid grid-4">
+                <div class="glass-card category-card">
+                    <img loading="lazy" src="https://images.unsplash.com/photo-1531415074968-036ba1b575da?auto=format&fit=crop&q=80&w=800" alt="Cricket">
+                    <div class="category-overlay">
+                        <h3>Cricket</h3>
+                        <p>Bats, Balls, Protection & Kits</p>
+                    </div>
+                </div>
+                <div class="glass-card category-card">
+                    <img loading="lazy" src="https://images.unsplash.com/photo-1579952363873-27f3bade9f55?auto=format&fit=crop&q=80&w=800" alt="Football">
+                    <div class="category-overlay">
+                        <h3>Football</h3>
+                        <p>Studs, Balls, Shin Guards & Jerseys</p>
+                    </div>
+                </div>
+                <div class="glass-card category-card">
+                    <img loading="lazy" src="https://images.unsplash.com/photo-1546519638-68e109498ffc?auto=format&fit=crop&q=80&w=800" alt="Basketball">
+                    <div class="category-overlay">
+                        <h3>Basketball</h3>
+                        <p>Match Balls, Rings, Nets & Shoes</p>
+                    </div>
+                </div>
+                <div class="glass-card category-card">
+                    <img loading="lazy" src="https://images.unsplash.com/photo-1626224583764-f87db24ac4ea?auto=format&fit=crop&q=80&w=800" alt="Badminton">
+                    <div class="category-overlay">
+                        <h3>Badminton</h3>
+                        <p>Carbon Rackets, Shuttles, Grips</p>
+                    </div>
+                </div>
+                <div class="glass-card category-card">
+                    <img loading="lazy" src="https://images.unsplash.com/photo-1584735935682-2f2b69dff9d2?auto=format&fit=crop&q=80&w=800" alt="Gym">
+                    <div class="category-overlay">
+                        <h3>Gym Equipment</h3>
+                        <p>Dumbbells, Plates, Benches, Rods</p>
+                    </div>
+                </div>
+                <div class="glass-card category-card">
+                    <img loading="lazy" src="https://images.unsplash.com/photo-1517838277536-f5f99be501cd?auto=format&fit=crop&q=80&w=800" alt="Fitness">
+                    <div class="category-overlay">
+                        <h3>Fitness Accessories</h3>
+                        <p>Bands, Mats, Jump Ropes & Belts</p>
+                    </div>
+                </div>
+                <div class="glass-card category-card">
+                    <img loading="lazy" src="https://images.unsplash.com/photo-1577471488278-16eec37ffcc2?auto=format&fit=crop&q=80&w=800" alt="School Sports">
+                    <div class="category-overlay">
+                        <h3>School Sports</h3>
+                        <p>PT Gear, Sports Day Bundles</p>
+                    </div>
+                </div>
+                <div class="glass-card category-card">
+                    <img loading="lazy" src="https://images.unsplash.com/photo-1610890716171-6b1bb98ffd09?auto=format&fit=crop&q=80&w=800" alt="Indoor Games">
+                    <div class="category-overlay">
+                        <h3>Indoor Games</h3>
+                        <p>Carrom, Chess, Table Tennis</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 3. Featured Products Section -->
+    <section id="products" class="section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Trending Products</span>
+                <h2 class="section-title">Featured Sports Gear</h2>
+            </div>
+
+            <div class="grid grid-3" id="products-grid">
+                <!-- Javascript will inject dynamic products here -->
+            </div>
+        </div>
+    </section>
+
+    <!-- 4. Why Choose Us Section -->
+    <section id="why-us" class="section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Our Advantage</span>
+                <h2 class="section-title">Why Choose Anshika Sports</h2>
+            </div>
+
+            <div class="grid grid-3">
+                <div class="glass-card feature-card">
+                    <div class="feature-icon"><i data-lucide="award"></i></div>
+                    <h3>Premium Quality</h3>
+                    <p>Only verified, highly durable original gear sourced from globally trusted brands.</p>
+                </div>
+                <div class="glass-card feature-card">
+                    <div class="feature-icon"><i data-lucide="circle-dollar-sign"></i></div>
+                    <h3>Affordable Pricing</h3>
+                    <p>Best market rates with dedicated institution discounts for schools & clubs.</p>
+                </div>
+                <div class="glass-card feature-card">
+                    <div class="feature-icon"><i data-lucide="shield-check"></i></div>
+                    <h3>Trusted Local Store</h3>
+                    <p>Tekanpur’s go-to sports hub serving local sports enthusiasts and academy players.</p>
+                </div>
+                <div class="glass-card feature-card">
+                    <div class="feature-icon"><i data-lucide="boxes"></i></div>
+                    <h3>Large Collection</h3>
+                    <p>From indoor board games to full cricket tournament kits, we have it all under one roof.</p>
+                </div>
+                <div class="glass-card feature-card">
+                    <div class="feature-icon"><i data-lucide="zap"></i></div>
+                    <h3>Fast Service</h3>
+                    <p>Quick stock availability, same-day local delivery, and custom order fulfilment.</p>
+                </div>
+                <div class="glass-card feature-card">
+                    <div class="feature-icon"><i data-lucide="user-check"></i></div>
+                    <h3>Expert Guidance</h3>
+                    <p>Get professional sports advice from our team to select the right bat weight or racket flex.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 5. About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-image-wrapper">
+                    <img loading="lazy" src="https://images.unsplash.com/photo-1517649763962-0c623266ddc0?auto=format&fit=crop&q=80&w=1000" alt="Anshika Sports Shop Showcase" class="about-img">
+                    <div class="glass-card experience-badge">
+                        <i data-lucide="check-circle-2"></i>
+                        <span>Authorized Brand Retailer</span>
+                    </div>
+                </div>
+                <div class="about-content">
+                    <span class="section-tag">About Anshika Sports</span>
+                    <h2 class="section-title">Equipping Champions in Tekanpur & Beyond</h2>
+                    <p class="about-text">
+                        Anshika Sports is one of the trusted sports equipment shops in Tekanpur, providing top-quality sports equipment and fitness products for schools, sports academies, professional athletes, and local fitness enthusiasts.
+                    </p>
+                    <p class="about-text">
+                        We take pride in fostering local talent by providing authentic equipment from world-renowned brands. Whether you need custom team jerseys, tournament-ready cricket bats, high-performance shoes, or a full home gym setup, we ensure unmatched durability and budget-friendly pricing.
+                    </p>
+                    <div class="about-checklist">
+                        <div class="check-item"><i data-lucide="check"></i> School & College Institutional Supplies</div>
+                        <div class="check-item"><i data-lucide="check"></i> Professional Cricket Club Custom Bundles</div>
+                        <div class="check-item"><i data-lucide="check"></i> 100% Genuine Certified Goods</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 6. Brands Section -->
+    <section class="section brands-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Partners</span>
+                <h2 class="section-title">Top Brands We Carry</h2>
+            </div>
+            <div class="brands-flex">
+                <div class="glass-card brand-pill">Nike</div>
+                <div class="glass-card brand-pill">Adidas</div>
+                <div class="glass-card brand-pill">Puma</div>
+                <div class="glass-card brand-pill">SG</div>
+                <div class="glass-card brand-pill">MRF</div>
+                <div class="glass-card brand-pill">SS</div>
+                <div class="glass-card brand-pill">Yonex</div>
+                <div class="glass-card brand-pill">Nivia</div>
+                <div class="glass-card brand-pill">Cosco</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 7. Reviews Section Slider -->
+    <section id="reviews" class="section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Testimonials</span>
+                <h2 class="section-title">What Our Customers Say</h2>
+            </div>
+
+            <div class="reviews-slider-container">
+                <div class="reviews-wrapper" id="reviews-wrapper">
+                    <!-- Javascript populates slides -->
+                </div>
+                <div class="slider-controls">
+                    <button id="prev-slide" class="icon-btn"><i data-lucide="chevron-left"></i></button>
+                    <button id="next-slide" class="icon-btn"><i data-lucide="chevron-right"></i></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 8. Gallery Section -->
+    <section class="section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Showcase</span>
+                <h2 class="section-title">Store & Products Gallery</h2>
+            </div>
+
+            <div class="masonry-grid">
+                <div class="masonry-item glass-card">
+                    <img loading="lazy" src="https://images.unsplash.com/photo-1531415074968-036ba1b575da?auto=format&fit=crop&q=80&w=800" alt="Gallery item">
+                    <div class="masonry-caption">English Willow Bats Collection</div>
+                </div>
+                <div class="masonry-item glass-card">
+                    <img loading="lazy" src="https://images.unsplash.com/photo-1579952363873-27f3bade9f55?auto=format&fit=crop&q=80&w=800" alt="Gallery item">
+                    <div class="masonry-caption">Match Footballs</div>
+                </div>
+                <div class="masonry-item glass-card">
+                    <img loading="lazy" src="https://images.unsplash.com/photo-1626224583764-f87db24ac4ea?auto=format&fit=crop&q=80&w=800" alt="Gallery item">
+                    <div class="masonry-caption">Pro Badminton Rackets</div>
+                </div>
+                <div class="masonry-item glass-card">
+                    <img loading="lazy" src="https://images.unsplash.com/photo-1584735935682-2f2b69dff9d2?auto=format&fit=crop&q=80&w=800" alt="Gallery item">
+                    <div class="masonry-caption">Heavy Rubber Dumbbells</div>
+                </div>
+                <div class="masonry-item glass-card">
+                    <img loading="lazy" src="https://images.unsplash.com/photo-1519861531473-9200262188bf?auto=format&fit=crop&q=80&w=800" alt="Gallery item">
+                    <div class="masonry-caption">Tournament Basketballs</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 9. FAQ Section -->
+    <section class="section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Help Center</span>
+                <h2 class="section-title">Frequently Asked Questions</h2>
+            </div>
+
+            <div class="faq-container">
+                <div class="glass-card faq-item">
+                    <div class="faq-question">
+                        <span>Are all products at Anshika Sports 100% original?</span>
+                        <i data-lucide="chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Yes! We source gear directly from official distributors of SG, Yonex, Nivia, Cosco, MRF, and SS. All items carry manufacturer authenticity markings.</p>
+                    </div>
+                </div>
+                <div class="glass-card faq-item">
+                    <div class="faq-question">
+                        <span>Do you provide bulk discounts for schools and academies?</span>
+                        <i data-lucide="chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Absolutely! We offer institutional pricing models for school sports departments, academies, and local cricket clubs purchasing in quantity.</p>
+                    </div>
+                </div>
+                <div class="glass-card faq-item">
+                    <div class="faq-question">
+                        <span>Can I order custom printed sports jerseys and kits?</span>
+                        <i data-lucide="chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Yes, we specialize in custom team jerseys with custom names, player numbers, and school/sponsor logo printing.</p>
+                    </div>
+                </div>
+                <div class="glass-card faq-item">
+                    <div class="faq-question">
+                        <span>Where is your shop located in Tekanpur?</span>
+                        <i data-lucide="chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>We are conveniently located on the main road in Tekanpur, Madhya Pradesh. Drop by anytime between 9:00 AM and 9:00 PM.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 10. Contact Section -->
+    <section id="contact" class="section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Get In Touch</span>
+                <h2 class="section-title">Contact & Location</h2>
+            </div>
+
+            <div class="contact-grid">
+                <div class="glass-card contact-info">
+                    <div class="info-block">
+                        <i data-lucide="map-pin"></i>
+                        <div>
+                            <h4>Address</h4>
+                            <p>Anshika Sports, Main Market, Tekanpur, Madhya Pradesh, India</p>
+                        </div>
+                    </div>
+                    <div class="info-block">
+                        <i data-lucide="phone"></i>
+                        <div>
+                            <h4>Phone & Direct Support</h4>
+                            <p>+91 95164 99774</p>
+                        </div>
+                    </div>
+                    <div class="info-block">
+                        <i data-lucide="clock"></i>
+                        <div>
+                            <h4>Opening Hours</h4>
+                            <p>Mon - Sun: 09:00 AM - 09:00 PM</p>
+                        </div>
+                    </div>
+
+                    <a href="https://wa.me/919516499774" target="_blank" class="btn btn-whatsapp w-full">
+                        <i data-lucide="message-circle"></i> Chat on WhatsApp
+                    </a>
+
+                    <!-- Embedded Map Container -->
+                    <div class="map-wrapper">
+                        <iframe 
+                            title="Anshika Sports Location Map"
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14341.137837777174!2d78.318888!3d25.981111!2m3!1f0!1f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3976c33842c235b3%3A0xb3514a4be5a21447!2sTekanpur%2C%20Madhya%20Pradesh!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin" 
+                            width="100%" 
+                            height="200" 
+                            style="border:0; border-radius: 12px;" 
+                            allowfullscreen="" 
+                            loading="lazy" 
+                            referrerpolicy="no-referrer-when-downgrade">
+                        </iframe>
+                    </div>
+                </div>
+
+                <form class="glass-card contact-form" id="contact-form">
+                    <h3>Send Us a Message</h3>
+                    <div class="form-group">
+                        <label for="name">Your Name</label>
+                        <input type="text" id="name" required placeholder="Enter full name">
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Phone Number</label>
+                        <input type="tel" id="phone" required placeholder="Enter mobile number">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Your Inquiry</label>
+                        <textarea id="message" rows="4" required placeholder="What products are you looking for?"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary w-full">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- 11. Footer -->
+    <footer class="footer">
+        <div class="container footer-content">
+            <div class="footer-col">
+                <a href="#" class="logo"><span class="logo-accent">ANSHIKA</span> SPORTS</a>
+                <p>Tekanpur’s premier destination for original, high-performance athletic equipment and fitness products.</p>
+            </div>
+            <div class="footer-col">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="#hero">Home</a></li>
+                    <li><a href="#categories">Categories</a></li>
+                    <li><a href="#products">Products</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Categories</h4>
+                <ul>
+                    <li><a href="#categories">Cricket Equipment</a></li>
+                    <li><a href="#categories">Football & Turf</a></li>
+                    <li><a href="#categories">Badminton Gear</a></li>
+                    <li><a href="#categories">Gym & Fitness</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Connect With Us</h4>
+                <div class="social-links">
+                    <a href="#" class="icon-btn" aria-label="Facebook"><i data-lucide="facebook"></i></a>
+                    <a href="#" class="icon-btn" aria-label="Instagram"><i data-lucide="instagram"></i></a>
+                    <a href="#" class="icon-btn" aria-label="Twitter"><i data-lucide="twitter"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <p>&copy; 2026 Anshika Sports, Tekanpur. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button id="back-to-top" class="back-to-top" aria-label="Back to top">
+        <i data-lucide="arrow-up"></i>
+    </button>
+
+    <!-- Dynamic Quick View Modal -->
+    <div id="quick-view-modal" class="modal-overlay">
+        <div class="glass-card modal-body">
+            <button id="modal-close" class="icon-btn modal-close"><i data-lucide="x"></i></button>
+            <div class="modal-grid" id="modal-content">
+                <!-- Dynamically filled by JavaScript -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Main JavaScript File -->
+    <script src="js/main.js"></script>
+</body>
+</html>
