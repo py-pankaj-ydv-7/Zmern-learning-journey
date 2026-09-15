@@ -76,3 +76,128 @@
     justify-content: center;
     
 }
+
+#section3{
+    width: 100%;
+    height: 60vh;
+    background-color: rgb(243, 218, 222);
+}
+
+#featuredProduct{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#featuredProduct h2{
+    padding-top: 40px;
+}
+
+#Products{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 40px;
+}
+
+.porduct1 p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.porduct1 img{
+    height: 250px;
+    width: 200px;
+}
+
+#section4{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#section4 h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.products2{
+    /* display: flex;
+    align-items: center;
+    justify-content: space-around; */
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    margin: 40px;
+}
+
+#section5{
+    width: 100%;
+    height: 60vh;
+    background-image:url('./special_offer.jpg');
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    
+}
+
+#specialOffers{
+    width: 400px;
+    height: 150px;
+    background-color: white;
+    margin-left: 30px;
+    border: 1px solid black;
+    /* display: flex;
+
+    align-items: center;
+    justify-content: center; */
+    /* gap: 20px; */
+
+    /* padding: 30px; */
+
+
+
+}
+
+#specialOffers Button{
+  margin-left: 43%;
+  
+
+}
+
+.center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 7px;
+}
+
+/* #offerItems h3 h4 p button{
+    padding: 10px;
+
+} */
+
+#section6{
+    width: 100%;
+    height: 50vh;
+    
+}
+
+#contacUs{
+    display: flex;
+    margin-top: 80px;
+    align-items: center;
+    justify-content: center;
+}
+
+#ContactForm{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+}
