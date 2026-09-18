@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabels in HTML</title>
+
+</head>
+<body>
+
+    <table border="black">
+        <caption>
+            Food Menu
+        </caption>
+
+        <!-- Table Header -->
+
+        <thead>
+        <tr>
+            <th>Item</th>
+            <th>Price</th>
+        </tr>
+        </thead>
+        <!-- table body  -->
+        <tbody>
+        <tr>
+            <td>Frooti</td>
+            <td>10</td>
+        </tr>
+        <tr>
+            <td>samosha</td>
+            <td>12</td>
+        </tr>
+        <tr>
+            <td>chips</td>
+            <td>20</td>
+        </tr>
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <td>Total =</td>
+                <td>32</td>
+            </tr>
+        </tfoot>
+
+
+    </table>
+
+    <!-- table k ander sementic -->
+
+    <!-- Colspan and Rowspan Attributes -->
+
+    <!-- used to create cells which spans over multiple rows or columns -->
+
+    <!-- example: <th colspan="2" >price</th> -->
+    <!-- example: <th rowspan="2" >price</th> -->
+
+    <br><br><br>
+
+    <table border="black">
+        <caption>Food Menu</caption>
+
+        <thead>
+            <tr>
+                <th rowspan="2" >Item</th>
+                <th colspan="2" >price</th>
+            </tr>
+             <tr>
+                <th>INR</th>
+                <th>USD</th>
+            </tr>
+            </thead>
+
+            <tbody>
+           
+            <tr>
+               <td>Frooti</td>
+               <td>10</td>
+               <td>0.14</td>
+            </tr>
+            <tr>
+               <td>Frooti</td>
+               <td>12</td>
+               <td>0.17</td>
+            </tr>
+            <tr>
+               <td>Chips</td>
+               <td>20</td>
+               <td>0.28</td>
+            </tr>
+            </tbody>
+        
+
+    </table>
+
+    <h1>practice Quesstion 7</h1>
+
+    <table border="">
+        <caption>A test table with merged cells</caption>
+        <thead>
+            <tr  >
+                <td rowspan="2"></td>
+                <td colspan="2" >Average</td>
+                <td rowspan="2" >Red eyes</td>
+            </tr>
+            <tr>
+                <td>Height</td>
+                <td>Weight</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Males</td>
+                <td>1.9</td>
+                <td>0.003</td>
+                <td>40%</td>
+            </tr>
+            <tr>
+                <td>Females</td>
+                <td>1.7</td>
+                <td>0.002</td>
+                <td>43%</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h1>Forms in Html:-</h1>
+
+  <p><b><u>Action Attributes :-</u> </b> Action attribute is used to define what action needs to be performed when a form is submitted or where the form data should be sent.</p>
+
+  <p>
+    <b><u>label :- </u></b> 
+    <ul><li>Label element represents a caption for an item in a user interface </li></ul>
+  </p>
+
+
+    <form action="/sever">
+        <div>
+        <label for="username">UserName:
+        <input type="text" id="username" name="username" placeholder="enter name">
+        </label>    
+        </div>
+
+        <div>
+        <label for="password">Password:
+        <input type="password" id="password" name="password" placeholder="enter password">
+        </label>
+        </div>
+        <button>Submit</button>
+
+        <!-- <div>
+            <label for="age">Age:</label>
+            <input type="number" id="age" placeholder="enter your age">
+        </div>
+        <button>Submit</button>
+        <button type="button" >hello</button>
+        <button type="reset">reset</button>
+        <br><br>
+        <input type="button" value=" button click">
+        <input type="submit" value="click me "> -->
+
+        <!-- input tag se button banane ka acha tarika nahi hai . hum button se tag se hi button banate hai. -->
+    </form>
+
+    <h1>practice question 8 search input tag</h1>
+
+    <form action="https://www.google.com/search">
+    <input type="text" name="q" placeholder="search in google">
+    <button>search</button>
+</form>
+
+<!-- input element (Checkbox) -->
+
+<form action="">
+    <input type="checkbox" id="age" name="age" >
+    <label for="age">I am 18+</label>
+    <div>
+        <input type="radio" name="fruit" id="apple" value="apple" >
+        <label for="apple">Apple</label>
+        <input type="radio" name="fruit" id="mango" value="mango" >
+        <label for="mango">mango</label>
+        <input type="radio" name="fruit" id="Orange" value="orange" >
+        <label for="Orange">Orange</label>
+        <input type="radio" name="fruit" id="Banana" value="Banana" >
+        <label for="Banana">Banana</label>
+    </div>
+     <label for="vol">Select Your Volume level: </label>
+ <input type="range" id="vol" min="0" max="100" name="volume" value="70" step="10" >
+    <button>submit</button>
+</form>
+
+
+<!-- Radio button -->
+
+<!-- <form action="">
+<input type="radio">
+</form> -->
+
+<!-- select element  -->
+ <!-- Dropdown -->
+
+ Choose your Subjects:
+
+ <select name="profession" id="profession">
+    <option value="">Select your option</option>
+    <option value="student" selected>Student</option>
+    <option value="dev" selected>Developer</option>
+ </select>
+
+ <!-- Range input  -->
+  <br>
+  <!-- label for="vol">Select Your Volume level: </label>
+ <input type="range" id="vol" min="0" max="100" name="volume" value="70" step="10" >
+ -->
+
+
+ <!-- Text area -->
+<label for="feedback">Please give your valueable feedback</label>
+ <textarea name="feedback" id="feedback" rows="5" cols="50" placeholder="this is textarea tag" ></textarea>
+ 
+
+
+    
+
+    
+</body>
+</html>
