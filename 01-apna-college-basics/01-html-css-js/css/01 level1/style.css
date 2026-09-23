@@ -21,10 +21,10 @@
 
         /* Practice Qs */
 
-        h2{
+        /* h2{ */
             /* color: olive; */
-            color: rgb(0, 255, 0);
-        }
+            /* color: rgb(0, 255, 0); */
+        /* } */
 /* 
         button{
             background-color: blue;
@@ -58,10 +58,37 @@
         } */
 
 
-        h1{
+        /* h1{
             text-align: justify;
         }
 
         p{
         text-align: justify;
+        } */
+
+        /* ------------ Practice Qs level1 css ------------ */
+
+        *{
+            background-color: #808080;
+            font-family: league spartan;
+            
+
+        }
+
+        div{
+            color: #ffa511;
+            width: 100%;
+            height: 100%;     
+            background-color: #fff;       ;
+        }
+
+        div h1{
+            text-align: center;
+            background-color: #fff;
+            text-decoration: double skyblue underline;
+            font-size: 55px;
+            font-weight: 900;
+            letter-spacing: 2px;
+            line-height: 1.5;
+            text-transform: uppercase;
         }
