@@ -1,0 +1,67 @@
+/* h1{
+            color: red;
+            background-color:black;
+        } */
+/* 
+        h1{
+            color: blue;
+            background-color: gray;
+        }
+
+        P{
+            color: red;
+            background-color: cornsilk;
+        }
+
+        button{
+            color: gold;
+            background-color: green;
+
+        } */
+
+        /* Practice Qs */
+
+        h2{
+            /* color: olive; */
+            color: rgb(0, 255, 0);
+        }
+/* 
+        button{
+            background-color: blue;
+            color: white;
+        }
+
+        p{
+            background-color: black;
+            color: white;
+        } */
+
+        /* #div2{
+            width: 200px;
+            height: 200px;
+            background-color: #ffffff;
+            border: 1px solid black;
+            border-radius: 10px;
+        }
+
+        #child1{
+            width: 100px;
+            height: 100px;
+            background-color: #ffff00;
+            border-radius: 10px;
+        }
+        #child2{
+            width: 100px;
+            height: 100px;
+            background-color: #0000ff;
+            border-radius: 10px;
+        } */
+
+
+        h1{
+            text-align: justify;
+        }
+
+        p{
+        text-align: justify;
+        }
