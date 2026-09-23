@@ -1,0 +1,32 @@
+*{
+    /* universal selector */
+    font-family: 'Courier New', Courier New;
+    
+}
+
+/*2. Element selector:- Select all element of the same type  */
+/* h1{
+    color: purple;
+}
+ h3{
+    color: red;
+ } */
+
+ /* 3. ID Selector:- Select an element based on the value of the element's id attribute */
+
+ /* #login{
+    color: red;    
+    background-color: white;
+ }
+
+ #signup{
+    background-color: red;
+    color: white;
+ } */
+
+ /* 4. Class Selector:- Select an element based on their class attribute */
+
+ .upvote{
+    background-color: green;
+    color: white;
+ }
