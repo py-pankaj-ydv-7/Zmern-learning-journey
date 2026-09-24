@@ -30,3 +30,58 @@
     background-color: green;
     color: white;
  }
+
+ p a{
+    color: purple;
+    background-color: yellow;
+ }
+
+ /* <!-- 5. Descendant Selector:- Selects all paragraphs inside divs --> */
+
+ nav ul li a{
+   color: purple;
+
+   background-color: bisque;
+ }
+
+ nav ul li{
+   color: pink;
+ }
+
+/* 6.Adjacent Sibling Combinator:- Heading3 that comes immediately after any paragraph */
+ 
+/* example:- 
+
+   p+h3{
+   property: value;
+   }
+*/
+
+p + h3{
+   text-decoration: underline red;
+}
+
+.upvote + button{
+   background-color: cornflowerblue;
+   color: white;
+}
+
+div > input{
+   background-color: darkgray;
+}
+
+/* 8. Attribute Selector:- Select elements based on the presence or value of a given attribute. */
+
+/* ex  */
+
+input[type="text"]{
+   color: red;
+}
+input[type="password"]{
+   color: green;
+
+}
+
+input[type]{
+   background-color: ghostwhite;
+}
