@@ -3,6 +3,12 @@
     font-family: Georgia;
 }
 
+h1,
+h3,
+h5 {
+font-family: Georgia;
+}
+
 *{
     text-align: center;
 }
@@ -13,7 +19,28 @@
     color: white;
 }
 
-div{
+div button {
     background-color: purple;
     color: azure;
 }
+
+button:hover{
+    background-color: yellow;
+    color: blue;
+    /* border-radius: 10px; */
+}
+p:nth-of-type(2n+1){
+    color: yellow;
+}
+
+h1::first-letter{
+    color: red;
+}
+
+#yes:checked + label{
+    color: darkgreen;
+}
+
+/* 7 or 9 question check? */
+
+id > div.main > class > h1
