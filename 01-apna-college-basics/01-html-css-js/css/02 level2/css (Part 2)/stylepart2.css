@@ -1,0 +1,19 @@
+#mainTopic{
+    color: blue;
+    font-family: Georgia;
+}
+
+*{
+    text-align: center;
+}
+
+
+.para{
+    background-color: cornflowerblue;
+    color: white;
+}
+
+div{
+    background-color: purple;
+    color: azure;
+}
