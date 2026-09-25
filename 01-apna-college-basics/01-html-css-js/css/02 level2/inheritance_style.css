@@ -1,0 +1,13 @@
+div{
+    background-color: yellow;
+}
+
+form{
+    background-color: red;
+
+}
+
+input{
+    background-color: inherit;  /*button or input element apne parent ki property nahi lete hai, unhe karana padta hai .  */
+    
+}
