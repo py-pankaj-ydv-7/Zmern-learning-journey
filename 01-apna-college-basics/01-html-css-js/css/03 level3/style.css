@@ -1,0 +1,29 @@
+*{
+    /* margin: 0;
+    padding: 0;
+    box-sizing: border-box; */
+}
+
+
+/* border */
+div{
+    height: 200px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: black;
+    border: 5px solid yellow;
+    border-left-color: blue;
+    border-left-style: dashed;
+    
+}
+/* div{
+       border: 2px solid blue;  short hand
+ } */
+
+
+h1{
+    border-width: 2px;
+    border-style: dashed;
+    border-color: purple;
+    
+}
