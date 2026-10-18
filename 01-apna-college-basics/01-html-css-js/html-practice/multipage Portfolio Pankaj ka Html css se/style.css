@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body{
+    background-color:#0d0d0d ;
+}
+
+header{
+    width: 100%;
+    /* height: 10vh; */
+    background-color:#0d0d0dd9;
+    /* background-color: red; */
+}
+
+#navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly; 
+}
+
+.logo{
+    width: 30%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    
+}
+
+.logo img{
+    width: 80px;
+    height: 40px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    cursor: pointer;
+}
+
+
+
+.navlinks{
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.navlinks a{
+    text-decoration: none;
+    color: #f2f2f2;
+    cursor: pointer;
+}
+
+.navlinks a:hover{
+    color: #a1a1aa;
+}
+
+.navlinks li{
+    list-style: none;
+}
+
+h1{
+    color: white;
+}
+
+#hero{
+    display: flex;
+    width: 100%;
+    height: 80vh;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#leftDiv{
+    width: 100%;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    margin-left: 10%;
+
+}
+#desc1{
+    color: #60a5fa;
+    font-size: 24px;
+    font-weight: 400px;
+}
+
+#leftDiv h2{
+    color: white;
+    font-size: 72px;
+    font-weight: 40px;
+}
+
+#desc2{
+    color:#a1a1aa ;
+    font-size: 24px;
+    font-weight: 400px;
+}
+
+#button{
+    width: 100%;
+    /* height: 50%; */
+    display: flex;
+    /* align-items: center;
+    justify-content: center; */
+}
+.btn{
+    width: 200px;
+    background-color: white;
+    margin: 20px;
+    margin-left: 0px;
+    height: 40px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#rightDiv{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+#rightDiv img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    width: 300px;
+    margin-top: 20px;
+}
+
+footer{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+footer p{
+    color: #a1a1aa;
+}
+
+#leftfooter p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#footericon{
+    color: #a1a1aa;
+}
